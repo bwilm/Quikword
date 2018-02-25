@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4DEE07A35E89105BC8D65ABE /* Pods_QuikWord.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F47DD6B1593930B02536262 /* Pods_QuikWord.framework */; };
 		A5ADF518203F675E0043C9C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5ADF517203F675E0043C9C7 /* AppDelegate.swift */; };
 		A5ADF51A203F675E0043C9C7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5ADF519203F675E0043C9C7 /* ViewController.swift */; };
 		A5ADF51D203F675E0043C9C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5ADF51B203F675E0043C9C7 /* Main.storyboard */; };
@@ -15,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F47DD6B1593930B02536262 /* Pods_QuikWord.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuikWord.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		92F2C5BC45B2854B7E1CE5F2 /* Pods-QuikWord.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuikWord.release.xcconfig"; path = "Pods/Target Support Files/Pods-QuikWord/Pods-QuikWord.release.xcconfig"; sourceTree = "<group>"; };
 		A5ADF514203F675E0043C9C7 /* QuikWord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuikWord.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5ADF517203F675E0043C9C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A5ADF519203F675E0043C9C7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +25,7 @@
 		A5ADF51E203F675E0043C9C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A5ADF521203F675E0043C9C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A5ADF523203F675E0043C9C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD7E4402A0C6FB5EBB856338 /* Pods-QuikWord.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuikWord.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QuikWord/Pods-QuikWord.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +33,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DEE07A35E89105BC8D65ABE /* Pods_QuikWord.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A1A8CBE3D7F384825630CAC2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F47DD6B1593930B02536262 /* Pods_QuikWord.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A5ADF50B203F675E0043C9C7 = {
 			isa = PBXGroup;
 			children = (
 				A5ADF516203F675E0043C9C7 /* QuikWord */,
 				A5ADF515203F675E0043C9C7 /* Products */,
+				F8E51586A6327F731D9FB13B /* Pods */,
+				A1A8CBE3D7F384825630CAC2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +79,15 @@
 			path = QuikWord;
 			sourceTree = "<group>";
 		};
+		F8E51586A6327F731D9FB13B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BD7E4402A0C6FB5EBB856338 /* Pods-QuikWord.debug.xcconfig */,
+				92F2C5BC45B2854B7E1CE5F2 /* Pods-QuikWord.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +95,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A5ADF526203F675E0043C9C7 /* Build configuration list for PBXNativeTarget "QuikWord" */;
 			buildPhases = (
+				65966BBD93B3BC0ED98AEF45 /* [CP] Check Pods Manifest.lock */,
 				A5ADF510203F675E0043C9C7 /* Sources */,
 				A5ADF511203F675E0043C9C7 /* Frameworks */,
 				A5ADF512203F675E0043C9C7 /* Resources */,
+				AC7EE27878EDA549DBFD413F /* [CP] Embed Pods Frameworks */,
+				CCE4914BB7007456B5C171F4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -130,6 +157,60 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		65966BBD93B3BC0ED98AEF45 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QuikWord-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC7EE27878EDA549DBFD413F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-QuikWord/Pods-QuikWord-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SCLAlertView/SCLAlertView.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SCLAlertView.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QuikWord/Pods-QuikWord-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CCE4914BB7007456B5C171F4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QuikWord/Pods-QuikWord-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A5ADF510203F675E0043C9C7 /* Sources */ = {
@@ -272,6 +353,7 @@
 		};
 		A5ADF527203F675E0043C9C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD7E4402A0C6FB5EBB856338 /* Pods-QuikWord.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -287,6 +369,7 @@
 		};
 		A5ADF528203F675E0043C9C7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92F2C5BC45B2854B7E1CE5F2 /* Pods-QuikWord.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
