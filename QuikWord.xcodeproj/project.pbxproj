@@ -13,6 +13,11 @@
 		A5ADF51D203F675E0043C9C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5ADF51B203F675E0043C9C7 /* Main.storyboard */; };
 		A5ADF51F203F675E0043C9C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5ADF51E203F675E0043C9C7 /* Assets.xcassets */; };
 		A5ADF522203F675E0043C9C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5ADF520203F675E0043C9C7 /* LaunchScreen.storyboard */; };
+		A5ADF52C204511880043C9C7 /* Logomakr_5CpVAT.png in Resources */ = {isa = PBXBuildFile; fileRef = A5ADF52B204511880043C9C7 /* Logomakr_5CpVAT.png */; };
+		A5ADF52E20459E830043C9C7 /* middleearth.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A5ADF52D20459E830043C9C7 /* middleearth.jpeg */; };
+		A5ADF53020459EF50043C9C7 /* gandalf-wizards-the-hobbit-middle-earth-ian-mckellen-1920x1080-8305.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5ADF52F20459EF50043C9C7 /* gandalf-wizards-the-hobbit-middle-earth-ian-mckellen-1920x1080-8305.jpg */; };
+		A5ADF5322045B2BA0043C9C7 /* middleearthcrop.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5ADF5312045B2BA0043C9C7 /* middleearthcrop.jpg */; };
+		A5ADF53420472C1C0043C9C7 /* about.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5ADF53320472C1C0043C9C7 /* about.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +30,11 @@
 		A5ADF51E203F675E0043C9C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A5ADF521203F675E0043C9C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A5ADF523203F675E0043C9C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5ADF52B204511880043C9C7 /* Logomakr_5CpVAT.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logomakr_5CpVAT.png; sourceTree = "<group>"; };
+		A5ADF52D20459E830043C9C7 /* middleearth.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = middleearth.jpeg; sourceTree = "<group>"; };
+		A5ADF52F20459EF50043C9C7 /* gandalf-wizards-the-hobbit-middle-earth-ian-mckellen-1920x1080-8305.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "gandalf-wizards-the-hobbit-middle-earth-ian-mckellen-1920x1080-8305.jpg"; sourceTree = "<group>"; };
+		A5ADF5312045B2BA0043C9C7 /* middleearthcrop.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = middleearthcrop.jpg; sourceTree = "<group>"; };
+		A5ADF53320472C1C0043C9C7 /* about.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = about.storyboard; sourceTree = "<group>"; };
 		BD7E4402A0C6FB5EBB856338 /* Pods-QuikWord.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuikWord.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QuikWord/Pods-QuikWord.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -72,7 +82,12 @@
 				A5ADF517203F675E0043C9C7 /* AppDelegate.swift */,
 				A5ADF519203F675E0043C9C7 /* ViewController.swift */,
 				A5ADF51B203F675E0043C9C7 /* Main.storyboard */,
+				A5ADF53320472C1C0043C9C7 /* about.storyboard */,
+				A5ADF5312045B2BA0043C9C7 /* middleearthcrop.jpg */,
+				A5ADF52F20459EF50043C9C7 /* gandalf-wizards-the-hobbit-middle-earth-ian-mckellen-1920x1080-8305.jpg */,
+				A5ADF52D20459E830043C9C7 /* middleearth.jpeg */,
 				A5ADF51E203F675E0043C9C7 /* Assets.xcassets */,
+				A5ADF52B204511880043C9C7 /* Logomakr_5CpVAT.png */,
 				A5ADF520203F675E0043C9C7 /* LaunchScreen.storyboard */,
 				A5ADF523203F675E0043C9C7 /* Info.plist */,
 			);
@@ -150,7 +165,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5ADF52C204511880043C9C7 /* Logomakr_5CpVAT.png in Resources */,
+				A5ADF5322045B2BA0043C9C7 /* middleearthcrop.jpg in Resources */,
+				A5ADF53420472C1C0043C9C7 /* about.storyboard in Resources */,
 				A5ADF522203F675E0043C9C7 /* LaunchScreen.storyboard in Resources */,
+				A5ADF53020459EF50043C9C7 /* gandalf-wizards-the-hobbit-middle-earth-ian-mckellen-1920x1080-8305.jpg in Resources */,
+				A5ADF52E20459E830043C9C7 /* middleearth.jpeg in Resources */,
 				A5ADF51F203F675E0043C9C7 /* Assets.xcassets in Resources */,
 				A5ADF51D203F675E0043C9C7 /* Main.storyboard in Resources */,
 			);
